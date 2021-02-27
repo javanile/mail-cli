@@ -1,0 +1,25 @@
+{
+  "name": "javanile/mail-cli",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "library",
+  "description": "Command-line utility for sending email.",
+  "homepage": "https://github.com/javanile/mail-cli",
+  "keywords": [
+    "mail",
+    "smtp",
+    "cicd",
+    "automation",
+    "nocode"
+  ],
+  "bin": [
+    "mail"
+  ],
+  "require": {
+    "ext-json": "*",
+    "phpmailer/phpmailer": "^6.0"
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.0"
+  }
+}

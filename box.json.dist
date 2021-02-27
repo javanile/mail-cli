@@ -1,0 +1,15 @@
+{
+  "chmod": "0755",
+  "main": "mail",
+  "output": "dist/mail.phar",
+
+  "directories": ["src"],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": ["test"],
+      "in": "vendor"
+    }
+  ],
+  "stub": true
+}
