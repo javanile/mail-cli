@@ -20,6 +20,7 @@
     "phpmailer/phpmailer": "^6.3"
   },
   "require-dev": {
-    "pestphp/pest": "^1.0"
+    "pestphp/pest": "^1.0",
+    "mikehaertl/php-shellcommand": "^1.6"
   }
 }
