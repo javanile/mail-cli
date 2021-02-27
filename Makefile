@@ -1,4 +1,6 @@
 
+init:
+	chmod +x mail
 
 build:
 	@if [ -d vendor ]; then mv vendor vendor.tmp; fi
@@ -12,3 +14,6 @@ push:
 	git add .
 	git commit -am "push"
 	git push
+
+test: init
+	./vendor/bin/pest
